@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p,label{
+    color: #dadcd9;
+    font-size: 1.4rem;
+}
+.form{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: -10px;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    font-weight: 200;
+    color: #606c76;
+}
+p,.new-account.creat-account{
+    font-size: 20px;
+}
+h5{
+    font-size: 14px;
+    text-align: right;
+    color: #9fac99;
+    font-weight: 600;
+}
+button{
+    border-radius: 30px;
+    margin: 20px;
+    width: 14rem;
+    color: white;
+    background-color: #757575;
+}
+span.sign{
+    font-size: 14px;
+}
+.container{
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template: 100fr/50fr 50fr;
+    grid-template-areas: "image form";
+
+}
+.logo-grid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img-container{
+    grid-area: image;
+    background-image: url("image/Dribbble.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center
+}
+.form-container{
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3rem;
+    padding: 50px;
+}
+.or:before,.or:after{
+    content: "";
+    border-top: solid 1px #ccc;
+    display: inline-block;
+    width: 6rem;
+    height: 0.1rem;
+}
+.border{
+    margin-top: 30px;
+}
+.gmail-icon{
+    width: 19px;
+    vertical-align: middle;
+}
+.new-account{
+    color: #adaead;
+}
+.creat-account{
+    color: #9fac99;
+    text-decoration: #757575;
+    text-decoration: underline;
+}
+.sign-in,.login {
+    margin: 35px;
+}
