@@ -22,8 +22,8 @@ h1 {
 }
 h2,.explain{
     color: white;
-    margin: 4rem;
-    text-align: justify;
+    margin: 2rem;
+    text-align: center;
 }
 p,.new-account.creat-account{
     font-size: 17px;
@@ -103,6 +103,6 @@ span.sign{
 .sign-in,.login {
     margin: 35px;
 }
-@media (max-width: 360px) {
-    
+@media (max-width: 500px) {
+
 }
